@@ -24,8 +24,4 @@ terraform {
     }
   }
 
-  provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-log-export:bigquery/v9.0.0"
-  }
-
 }
